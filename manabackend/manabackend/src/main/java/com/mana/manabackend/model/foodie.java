@@ -2,17 +2,23 @@ package com.mana.manabackend.model;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "foodies")
 public class foodie {
+
+    @Id
     private String foodieid;
     private String fname;
     private String femail;
     private  String fpassword;
     private String fphonecode;
     private String fphonenumber;
+
+    public foodie() {
+    }
 
     public foodie(String foodieid, String fname, String femail, String fpassword, String fphonecode, String fphonenumber) {
         this.foodieid = foodieid;

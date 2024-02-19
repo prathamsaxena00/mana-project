@@ -25,12 +25,12 @@ public class FoodieController {
         return fs.getallfoodiesdata();
     }
     @PostMapping
-    public String createfoodiedetails(foodie fd){
+    public String createfoodiedetails(@RequestBody foodie fd){
         fs.createfoodiesdata(fd);
         return "foodie data uploaded successfully";
     }
     @PutMapping
-    public String updatefoodiedetails(foodie fd){
+    public String updatefoodiedetails(@RequestBody foodie fd){
         fs.createfoodiesdata(fd);
         return "foodie data updated successfully";
     }

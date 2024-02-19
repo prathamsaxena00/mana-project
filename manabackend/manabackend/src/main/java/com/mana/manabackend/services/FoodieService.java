@@ -1,6 +1,5 @@
 package com.mana.manabackend.services;
 
-import com.mana.manabackend.model.cooksmodel;
 import com.mana.manabackend.model.foodie;
 
 import java.util.List;
