@@ -1,0 +1,45 @@
+cooks service
+
+{
+  "cooksid": "123456",
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "password123",
+  "address": "123 Main St",
+  "city": "Anytown",
+  "pincode": "12345",
+  "state": "Somestate",
+  "phonecode": "+1",
+  "phonenumber": "555-555-5555",
+  "kitchenname": "Doe's Kitchen",
+  "speciality": ["Italian", "Mexican"]
+}
+
+
+
+foodie service
+{
+  "foodieid": "f123456789",
+  "fname": "John Doe",
+  "femail": "john.doe@example.com",
+  "fpassword": "securepassword",
+  "fphonecode": "+1",
+  "fphonenumber": "123-456-7890"
+}
+
+dishes service 
+
+{
+  "dishid": "123456",
+  "kitchenname": "Doe's Kitchen",
+  "dishname": "Spaghetti Carbonara",
+  "description": "Classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+  "price": 12,
+  "category": "Pasta",
+  "type": "Main Course",
+  "isavailable": true
+}
+
+image service
+
+key :image
