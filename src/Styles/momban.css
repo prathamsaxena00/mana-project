@@ -1,0 +1,87 @@
+.mombx{
+width: 100%;
+background-color: rgb(225, 225, 225);
+height: 410px;
+}
+.momtxt{
+    margin-top: 200px;
+}
+.hrt1{
+    height: 30px;
+    margin-right: 380px;
+    transform: rotate(-20deg);
+
+
+}
+.hrt2{
+    height: 30px;
+    transform: rotate(20deg);
+
+}
+.momct{
+    font-size:20px ;
+}
+
+@media screen and (max-width: 600px){
+    .momimg{
+        height: 300px;
+        margin-left: -40px;
+        margin-top: 160px;
+     
+       
+    }
+    .mombx{
+     
+        background-color: rgb(234, 234, 234);
+        height: 460px;
+        animation-name: appearr;
+        animation-duration: 3s;
+        
+        
+    }
+        .momtxt{
+            margin-top: 0px;
+            top: 50px;
+            left: 0;
+            position: absolute;
+        }
+        .mombx{
+            position: relative;
+        }
+
+       
+        .hrt1{
+            height: 30px;
+            margin-right: 315px;
+            margin-bottom: -5px;
+            transform: rotate(-20deg);
+        
+        
+        }
+        .hrt2{
+            height: 30px;
+            transform: rotate(20deg);
+            
+        
+        }
+        .momct{
+            font-size: 18px;
+            margin-left: 15px;
+        }
+        .mombtn{
+            margin-left: 15px;
+            margin-top: -10px;
+        }
+
+
+        @keyframes appearr {
+            from{
+                margin-left: -20px;
+                opacity: 0;
+            }
+            to{
+                margin-left: 0px;
+                opacity: 1;
+            }
+        }
+}

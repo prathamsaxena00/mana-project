@@ -10,7 +10,7 @@ export default function Navigation() {
   return (
     <Navbar expand="lg" >
     <Container>
-      <Navbar.Brand href="#home">Mana</Navbar.Brand>
+      <Navbar.Brand href="#home"><b><i>Mana</i></b></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
