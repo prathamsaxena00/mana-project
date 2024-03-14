@@ -1,0 +1,22 @@
+.foodieimg
+{
+    height: 400px;
+    width: 500px;
+    margin-left: 90px;
+}
+.lgbx{
+    margin-top: 100px;
+}
+@media screen and (max-width: 600px){
+    .foodieimg
+    {
+        height: 280px;
+        width: 360px;
+        margin-top: 10px;
+        margin-left: 0px;
+    } 
+    
+    .lgbx{
+        margin-top: 20px;
+    }
+}

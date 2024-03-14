@@ -1,22 +1,32 @@
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Subbanner  from './components/subbanner';
-import  Navigation from './components/nav' ;
-import Banner from './components/banner';
-import Mombanner from './components/mombanner';
-import Customer  from './components/customer';
-import Footer from './components/footer';
-function App() {
+import { createBrowserRouter , RouterProvider } from 'react-router-dom';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/home';
+import Login from './components/login';
+import SignupForm from './components/signup';
+function App() {
+  const router=createBrowserRouter([
+    {
+      path:"/",
+      element:<Home/>
+
+    },
+    {
+      path:"/login",
+      element:<Login/>
+    },
+    {
+      path:"/signup",
+      element:<SignupForm/>
+    },
+
+  ])
   return (
     <div>
-      <Navigation/>
-    <Banner/>
-    <Subbanner/>
-    <Mombanner/>
-    <Customer/>
-    <Footer/>
+    <RouterProvider router={router}/>
+     
     </div>
   
   );
