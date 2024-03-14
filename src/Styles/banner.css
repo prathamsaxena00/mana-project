@@ -1,0 +1,140 @@
+.bannerbox{
+    position: relative;
+}
+
+.curveimg{
+    float: right;
+   
+    
+}
+.logoweb{
+    height: 350px;
+    left: 120px;
+    top: 80px;
+    position: absolute;
+
+}
+.thaaliimg{
+    height: 600px;
+    position: absolute;
+    top: 80px;
+  right: 10px;
+}
+.bannertitle{
+    position: absolute;
+    font-size: 22px;
+    left: 140px;
+    top: 360px;
+
+  
+    
+}
+
+.leaf1{
+    position: absolute;
+    top: 60px;
+    height: 170px;
+}
+.leaf2{
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+    height: 170px;
+}
+.searchbx{
+    position: absolute;
+    top: 470px;
+    width: 60%;
+    left: 90px;
+
+}
+.schbtn{
+    margin-left: -22px;
+}
+
+@media screen and (max-width: 600px) {
+     
+
+
+    .bannerbox{
+    
+        width: 100%;
+   
+        
+      
+        
+        
+    }
+    
+    
+    .curveimg{
+       
+        display: none;
+      
+       
+        
+    }
+    .logoweb{
+        height: 300px;
+        width: 300px;
+        left: 35px;
+        top: 50px;
+
+        
+    
+    }
+    .thaaliimg{
+        height: 0px;
+       
+        top: 0px;
+      right: 0px;
+      display: none;
+    }
+    .bannertitle{
+     
+        font-size: 22px;
+        left: 40px;
+        top: 300px;
+        overflow: hidden; 
+        border-right: .15em solid black; 
+        white-space: nowrap; 
+        margin: 0 auto; 
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+      
+    
+      
+        
+    }
+    .leaf1{
+   
+        top: 30px;
+        height: 130px;
+        
+    }
+    .leaf2{
+      
+        top: 500px;
+        left: 230px;
+        height: 130px;
+        
+    }
+    .searchbx{
+  
+        top: 400px;
+        width: 130%;
+        left: 35px;
+      
+    
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: black; }
+      }
+   
+  }
