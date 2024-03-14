@@ -1,0 +1,25 @@
+.cimg1{
+    height: 250px;
+
+
+}
+.crsl{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .crsl{
+        display: block;
+    }
+    .cimg1{
+        height: 240px;
+        margin-top: 10px;
+        display: none;
+    
+    }
+    .cimg{
+        height: 250px;
+      
+    }
+ 
+}
